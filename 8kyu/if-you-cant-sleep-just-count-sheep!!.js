@@ -12,6 +12,14 @@ function countSheep(n){
     return str;
   }
 
+  // Other solutions
+  function countSheep(n){
+    let str = ""
+    for(let i = 1; i <= n; i += `${i} sheep... `){
+        return str
+    }
+}
+
 
   //variable to hold the string is declared and assigned
   //for loop is run however many times the input says to
