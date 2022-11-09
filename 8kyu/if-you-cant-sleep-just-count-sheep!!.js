@@ -13,15 +13,16 @@ function countSheep(n){
   }
 
   // Other solutions
-  function countSheep(n){
-    let str = ""
-    for(let i = 1; i <= n; i += `${i} sheep... `){
-        return str
-    }
-}
 
+function countSheep(num){
+  const arr = []
+  for(let i = 1; i <= num; i++){
+    arr.push(`${i} sheep... `)
+  }
+  return arr.join('')
+}
 
   //variable to hold the string is declared and assigned
   //for loop is run however many times the input says to
-   //every time the loop runs, it concatinates the following string into the variable 
+   //every time the loop runs, it concatinates the following string into the variable holding the the string
    //variable is returned
