@@ -1,14 +1,19 @@
 
-
-//take a string
-//split the string into an array
-//find the index of all the elements of that array
-//identify which elements are capitalized
-//return only the capitalized elements
-
-
-
-function word(str){
-str.match(/[A-Z]/g).forEach((e,i)=> return i )
-
+function powerOfTwo(n){
+    let newArr = []
+    for(let i = 0;  i <= n; i++){
+        newArr.push(2**i)
+    }
+    return newArr
 }
+
+powerOfTwo(4)
+
+//takes in a non-negative integer
+//returns a new array of all the powers of two from 0 to n
+
+function smash(words){
+   return words.join(' ')
+}
+
+smash(['Hello', 'World'])
