@@ -1,19 +1,15 @@
-
-function powerOfTwo(n){
-    let newArr = []
-    for(let i = 0;  i <= n; i++){
-        newArr.push(2**i)
+function remove(string){
+    
+    if(string[string.length-1] === '!'){
+      return  string.slice(0,-1)
+    }else{
+        return string
     }
-    return newArr
 }
 
-powerOfTwo(4)
+string.length
 
-//takes in a non-negative integer
-//returns a new array of all the powers of two from 0 to n
-
-function smash(words){
-   return words.join(' ')
+function squareDigits(num){
+  num = num.split("")
+  return num.map((element)=> element**2).join('')
 }
-
-smash(['Hello', 'World'])
