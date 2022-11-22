@@ -1,11 +1,9 @@
 
-
-
-function firstNonConsectutive(arr){
-  for(let i = 1; i <= arr.length; i++){
-    if(arr[i+1] - arr[i] !== 1){
-      return arr[i + 1]
-    }
+function countTheMonkeys(n){
+  let newArr = []
+  for(let i = 1; i<= n; i += 1){
+ newArr.push(i)
   }
-  return null
+   return newArr
+
 }
